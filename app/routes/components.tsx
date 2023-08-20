@@ -1,10 +1,9 @@
 import { Form, Link, NavLink, Outlet, useLoaderData } from "@remix-run/react";
 
-
 export default function NoteIndexPage() {
     return (
         <div className="flex">
-            <nav id="sidebar" className="flex flex-col h-screen border-r border-gray-300 w-48 bg-gray-100 p-8">
+            <nav id="sidebar" className="flex flex-col h-screen border-r border-gray-100  p-4">
                 <div className="mb-8 flex flex-col">
                     <p className="uppercase text-black">Getting Started</p>
                     <NavLink to="colors">Introduction</NavLink>
@@ -38,7 +37,7 @@ export default function NoteIndexPage() {
                 </div>
             </nav>
             
-            <main className="col-span-5">
+            <main className="p-8">
                 <h1 className="text-5xl font-bold">This should be dynamic</h1>
 
                 <div className="">

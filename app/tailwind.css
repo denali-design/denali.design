@@ -5,6 +5,6 @@
 
 /* Setup with Denali CSS */
 
-#sidebar a.active {
-    @apply text-blue-500;
-  }
+a.active {
+  @apply text-blue-500;
+}

@@ -10,8 +10,12 @@ import {
   ScrollRestoration,
 } from "@remix-run/react";
 
+
 import { getUser } from "~/session.server";
 import stylesheet from "~/tailwind.css";
+
+import NavBar from "~/Navbar.tsx";
+
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesheet },
@@ -21,6 +25,8 @@ export const links: LinksFunction = () => [
 export const loader = async ({ request }: LoaderArgs) => {
   return json({ user: await getUser(request) });
 };
+
+
 
 export default function App() {
   return (
@@ -32,6 +38,7 @@ export default function App() {
         <Links />
       </head>
       <body className="h-full">
+        <NavBar />
         <Outlet />
         <ScrollRestoration />
         <Scripts />
