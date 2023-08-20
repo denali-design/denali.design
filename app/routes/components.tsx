@@ -2,7 +2,7 @@ import { Form, Link, NavLink, Outlet, useLoaderData } from "@remix-run/react";
 
 import type { V2_MetaFunction } from "@remix-run/node";
 
-export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
+export const meta: V2_MetaFunction = () => [{ title: "Denali - Components" }];
 
 export default function Index() {
     return (
@@ -36,10 +36,6 @@ export default function Index() {
                     <NavLink to="grids">Grids</NavLink>
                     <NavLink to="modals">Modals</NavLink>
                     <NavLink to="pagination">Pagination</NavLink>
-
-                    {/* <NavLink to="chips">Chips</NavLink> */}
-
-
                 </div>
             </nav>
             

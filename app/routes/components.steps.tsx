@@ -1,6 +1,6 @@
 import type { V2_MetaFunction } from "@remix-run/node";
 
-export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
+export const meta: V2_MetaFunction = () => [{ title: "Denali - Steps" }];
 
 
 export default function Index() {
