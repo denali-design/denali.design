@@ -2,14 +2,10 @@ import type { V2_MetaFunction } from "@remix-run/node";
 
 export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
 
-
-
-export default function NoteIndexPage() {
+export default function Index() {
     return (
         <div>
-            
-            <h1 className="text-5xl font-bold">Alerts</h1>
-
+            <h1>Shadows</h1>
         </div>
     )
 }

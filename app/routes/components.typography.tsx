@@ -4,12 +4,10 @@ export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
 
 
 
-export default function NoteIndexPage() {
+export default function Index() {
     return (
         <div>
-            
-            <h1 className="text-5xl font-bold">Typography</h1>
-
+            <h1>Typography</h1>
         </div>
     )
 }

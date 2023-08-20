@@ -4,21 +4,19 @@ import type { V2_MetaFunction } from "@remix-run/node";
 
 export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
 
-
-
-export default function NoteIndexPage() {
+export default function Index() {
     return (
         <div className="flex">
             <nav id="sidebar" className="flex flex-col h-screen border-r border-gray-100  p-4">
                 <div className="mb-8 flex flex-col">
-                    <p className="uppercase font-bold text-black">Getting Started</p>
+                    <p className="font-bold text-black">Getting Started</p>
                     <NavLink to="introduction">Introduction</NavLink>
                     <NavLink to="quickstart">Quickstart</NavLink>
                     <NavLink to="license">License</NavLink>
                 </div>
 
                 <div className="mb-8 flex flex-col">
-                    <p className="uppercase font-bold text-black">Tokens</p>
+                    <p className="font-bold text-black">Tokens</p>
                     <NavLink to="colors">Colors</NavLink>
                     <NavLink to="spacing">Spacing</NavLink>
                     <NavLink to="shadows">Shadows</NavLink>
@@ -26,7 +24,7 @@ export default function NoteIndexPage() {
                 </div>
 
                 <div className="mb-8 flex flex-col">
-                    <p className="uppercase font-bold text-black">Display</p>
+                    <p className="font-bold text-black">Display</p>
                     <NavLink to="alerts">Alerts</NavLink>
                     <NavLink to="badges">Badges</NavLink>
                     <NavLink to="breadcrumb">Breadcrumb</NavLink>
@@ -46,8 +44,6 @@ export default function NoteIndexPage() {
             </nav>
             
             <main className="p-8">
-                <h1 className="text-5xl font-bold">This should be dynamic</h1>
-
                 <div className="">
                     <Outlet />
                 </div>
