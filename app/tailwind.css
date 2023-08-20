@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* Setup with Denali CSS */
+
+#sidebar a.active {
+    @apply text-blue-500;
+  }
