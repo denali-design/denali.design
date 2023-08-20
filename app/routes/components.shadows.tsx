@@ -1,4 +1,7 @@
-import { Form, Link, NavLink, Outlet, useLoaderData } from "@remix-run/react";
+import type { V2_MetaFunction } from "@remix-run/node";
+
+export const meta: V2_MetaFunction = () => [{ title: "Remix Notes" }];
+
 
 
 export default function NoteIndexPage() {
@@ -6,10 +9,6 @@ export default function NoteIndexPage() {
         <div>
             
             <h1 className="text-5xl font-bold">Alerts</h1>
-
-            <div className="flex-1 p-6">
-                <Outlet />
-            </div>
 
         </div>
     )
