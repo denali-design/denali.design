@@ -7,39 +7,39 @@ export const meta: V2_MetaFunction = () => [{ title: "Denali - Components" }];
 export default function Index() {
     return (
         <div className="flex">
-            <nav id="sidebar" className="flex flex-col h-screen border-r border-gray-100  p-4">
+            <nav id="sidebar" className="flex flex-col h-screen border-r border-gray-200 p-4 w-48">
                 <div className="mb-8 flex flex-col">
                     <p className="font-bold text-black">Getting Started</p>
-                    <NavLink to="introduction">Introduction</NavLink>
-                    <NavLink to="quickstart">Quickstart</NavLink>
-                    <NavLink to="license">License</NavLink>
+                    <NavLink className="text-gray-600" to="introduction">Introduction</NavLink>
+                    <NavLink className="text-gray-600" to="quickstart">Quickstart</NavLink>
+                    <NavLink className="text-gray-600" to="license">License</NavLink>
                 </div>
 
                 <div className="mb-8 flex flex-col">
                     <p className="font-bold text-black">Tokens</p>
-                    <NavLink to="colors">Colors</NavLink>
-                    <NavLink to="spacing">Spacing</NavLink>
-                    <NavLink to="shadows">Shadows</NavLink>
-                    <NavLink to="typography">Typography</NavLink>
+                    <NavLink className="text-gray-600" to="colors">Colors</NavLink>
+                    <NavLink className="text-gray-600" to="spacing">Spacing</NavLink>
+                    <NavLink className="text-gray-600" to="shadows">Shadows</NavLink>
+                    <NavLink className="text-gray-600" to="typography">Typography</NavLink>
                 </div>
 
                 <div className="mb-8 flex flex-col">
                     <p className="font-bold text-black">Display</p>
-                    <NavLink to="alerts">Alerts</NavLink>
-                    <NavLink to="badges">Badges</NavLink>
-                    <NavLink to="breadcrumb">Breadcrumb</NavLink>
-                    <NavLink to="cards">Cards</NavLink>
-                    <NavLink to="chips">Chips</NavLink>
-                    <NavLink to="code">Code</NavLink>
-                    <NavLink to="containers">Containers</NavLink>
-                    <NavLink to="dividers">Dividers</NavLink>
-                    <NavLink to="grids">Grids</NavLink>
-                    <NavLink to="modals">Modals</NavLink>
-                    <NavLink to="pagination">Pagination</NavLink>
+                    <NavLink className="text-gray-600" to="alerts">Alerts</NavLink>
+                    <NavLink className="text-gray-600" to="badges">Badges</NavLink>
+                    <NavLink className="text-gray-600" to="breadcrumb">Breadcrumb</NavLink>
+                    <NavLink className="text-gray-600" to="cards">Cards</NavLink>
+                    <NavLink className="text-gray-600" to="chips">Chips</NavLink>
+                    <NavLink className="text-gray-600" to="code">Code</NavLink>
+                    <NavLink className="text-gray-600" to="containers">Containers</NavLink>
+                    <NavLink className="text-gray-600" to="dividers">Dividers</NavLink>
+                    <NavLink className="text-gray-600" to="grids">Grids</NavLink>
+                    <NavLink className="text-gray-600" to="modals">Modals</NavLink>
+                    <NavLink className="text-gray-600" to="pagination">Pagination</NavLink>
                 </div>
             </nav>
             
-            <main className="p-8">
+            <main className="p-8 flex-1">
                 <div className="">
                     <Outlet />
                 </div>

@@ -7,6 +7,7 @@ export default function Index() {
     return (
         <div>
             <h1>Alerts</h1>
+            <p>The alert component communicates important messages to users, ranging from success or error notifications to emphasized information that supplements standard text content on a page.</p>
         </div>
     )
 }

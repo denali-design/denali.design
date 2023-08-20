@@ -7,6 +7,7 @@ export default function Index() {
     return (
         <div>
             <h1>Cards</h1>
+            <p>A versatile container that displays information and actions about a single topic, often used in grids or lists to present a summary or overview.</p>
         </div>
     )
 }

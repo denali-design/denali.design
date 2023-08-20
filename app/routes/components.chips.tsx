@@ -7,6 +7,7 @@ export default function Index() {
     return (
         <div>
             <h1>Chips</h1>
+            <p>The chip component displays compact tags, attributes, or actions. It's ideal for representing selections or brief pieces of information in a concise format.</p>
         </div>
     )
 }

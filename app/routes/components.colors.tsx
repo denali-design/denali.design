@@ -8,8 +8,8 @@ export default function Index() {
         <div>
             
         <h1 className="text-5xl font-bold">Colors</h1>
-        <p>Color is crucial for distinguishing screen elements and enhancing user interface and experience. </p>
-        
+        <p>The color component provides a palette or specific shades for consistent visual design. It ensures uniformity in presentation, setting the tone and mood, while enhancing usability and accessibility across the interface. </p>
+
             <section className="flex flex-col">
                 <h2 className="h4 mb-2">Primary</h2>
                 <div className="flex gap-4">
