@@ -16,7 +16,7 @@ export default function Index() {
             <p className="text-2xl text-gray-700 max-w-3xl">Seamlessly integrate the power of TailwindCSS with the versatility of semantic theming to elevate your visual identity.</p>
 
             <div className="mt-8 space-x-3 flex">
-              <Link to="quickstart" className="bg-blue-500 text-white font-bold px-6 py-4 rounded-full">Start Building</Link>
+              <Link to="components/introduction" className="btn btn-primary">Start Building</Link>
               <Link to="design" className=" text-blue-500 font-bold px-6 py-4 rounded-full">View Principles</Link>
             </div>
           </div>

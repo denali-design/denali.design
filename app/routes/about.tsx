@@ -5,7 +5,7 @@ export const meta: V2_MetaFunction = () => [{ title: "Denali - About" }];
 
 export default function Index() {
   return (
-    <div>
+    <div className="p-8">
       <h1>About</h1>
     </div>
   );
